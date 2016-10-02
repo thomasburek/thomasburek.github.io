@@ -1,0 +1,217 @@
+/**************************************************************FONT***/
+@font-face {
+    font-family: 'HoboStd';
+    src: url('police/HoboStd.otf');
+}
+.HoboStd
+{
+    font-family: HoboStd;
+}
+
+@font-face {
+    font-family: 'lobster_1.4regular';
+    src: url('police/lobster_1.4-webfont.woff2') format('woff2'),
+         url('police/lobster_1.4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('police/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('police/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/********************************************************* GENERAL ***/
+* {
+	margin:0;
+}
+body {
+	color:#fff;
+	background-color:#000;
+	font-family:Georgia,Arial, sans-serif;
+}
+
+#bloc_page {
+	width: 900px;
+    margin: auto;
+}
+#background {
+	width:100%;
+	position:absolute;
+	top:0;
+	z-index:-1;
+	overflow:hidden;
+	height:540px;
+}
+#background img {
+	width: 100%;
+	min-width: 800px;
+}
+/********************************************************** HEADER ***/
+
+header {
+	width:100%;
+	height:150px;
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+	background-color: rgba(0, 0, 0, 0.50);
+	border-bottom: 3px solid #f39237;
+}
+h1 {
+	position:absolute;
+	left:300px;
+	top: 0;
+	font-size: 98px;
+	letter-spacing:0.5em;
+	font-family: 'HoboStd';		
+}
+h1 a{text-decoration: none;color: #f39237;}
+h3{
+	margin-right: 20px;
+	font-size: 34px;
+	font-family: 'kaushan_scriptregular';
+	color: #f39237;
+
+}
+/********************************************************* CONTENU ***/
+
+#centre {
+	display: flex;
+	margin-top: 40px;		
+}
+.texte{		
+	margin:-10px 20px 20px 0;
+}
+.texte p {
+	margin-top: 10px;
+	 
+	line-height:1.5em;
+	font-size:20px; text-align:justify; 
+	color:#fff
+}
+.texte p a { color:#f39237}
+h2 {
+	border:1px solid #f39237; 
+	width:90px;
+	font-family: 'Hobo Std';
+	color:#f39237;
+	padding:2px;
+}
+a.lien{
+	color:#ffffff;
+	text-decoration:none;
+}
+a.lien:hover{
+	text-decoration:underline;
+}
+
+#contact {
+	float:right;
+	height:110px;
+	padding:20px;
+	background-color: #f39237;
+	border-radius: 6px;
+	text-decoration:none;
+	font-size:16px;
+	text-align:center;
+	color:#555;
+	margin:-80px 30px 0 0;
+	line-height:1.4em;
+}
+
+#contact span {font-size:27px; padding-bottom:5px}
+#contact a {text-decoration:none;color:#fff;}
+#contact a:hover{
+				box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.6) inset,
+				0px 2px 2px 0px rgba(255,255,255,0.2);
+				padding: 10px;border-radius: 4px;
+				color:#f39237;background-color: #555;
+				-webkit-transition-duration: 350ms ;	
+}
+
+/***************************************************************NAV***/
+
+#colonne_gauche {
+	display: flex;
+    width:280px;
+	background-color: rgba(0, 0, 0, 0.50);
+	margin-left:4%;		
+}
+#colonne_gauche nav {
+	margin-top: 40px;
+}
+#colonne_gauche nav ul li{
+	list-style-type: none;		
+}
+#colonne_gauche nav ul li a {
+	display: block;
+	padding: 5px 0 4px 30px;
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:16px;
+	height:42px;
+	background:url(puce.png) 0px 2px no-repeat;
+}
+
+#colonne_gauche nav li a:hover{
+	color: #f39237;
+	font-size:21px;
+	-webkit-transition: font-size 300ms;
+}
+	
+	
+
+/*******************************************************ENCART ACTU***/
+
+article.encart_actu {  
+	float:right;  
+	border:1px solid #f39237; 
+	margin:20px;
+	
+}
+.titre_actu { 
+	display:block;
+ 	color:#555; 
+ 	font-size:22px; 
+ 	text-align: center; 
+ 	line-height:35px; 
+ 	background-color: #f39237; 
+ 	text-transform:uppercase; 
+}
+.encart_actu p span {
+	font-size:17px; 
+	color:#f39237; 
+	text-transform:uppercase; 	
+}
+.encart_actu p {font-size:19px;padding:4px;font-family:serif;line-height:30px; }
+a img {float: left;margin: 3px;}
+a img:hover {border:1px solid #f39237;margin: 2px;}
+.encart_actu p a {color:#f39237;font-size:16px;text-decoration:none;}
+p a em:hover{text-decoration:underline;}
+
+/********************************************************** FOOTER ***/
+footer{
+	width: 100%;
+	display: flex;
+	background:#fff;
+	border-top:3px solid #f39237;
+	box-shadow: 0px -2px 0px 0px white, 0px -4px 0px 0px black, 0px -6px 0px 0px white;
+}
+
+footer section{
+	display: flex;
+	position: relative;
+	color: #2e2e2e;
+	padding:17px;
+	overflow: visible;
+}	
+#adresse-footer {
+	position: relative;
+	
+	font-size:15px;
+	text-transform:uppercase;
+}
