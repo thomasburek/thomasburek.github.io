@@ -66,7 +66,7 @@ h1 {
 	top: 0;
 	font-size: 98px;
 	letter-spacing:0.5em;
-	font-family: 'HoboStd';		
+	font-family: 'HoboStd';
 }
 h1 a{text-decoration: none;color: #f39237;}
 h3{
@@ -80,21 +80,21 @@ h3{
 
 #centre {
 	display: flex;
-	margin-top: 40px;		
+	margin-top: 40px;
 }
-.texte{		
+.texte{
 	margin:-10px 20px 20px 0;
 }
 .texte p {
 	margin-top: 10px;
-	 
+
 	line-height:1.5em;
-	font-size:20px; text-align:justify; 
+	font-size:20px; text-align:justify;
 	color:#fff
 }
 .texte p a { color:#f39237}
 h2 {
-	border:1px solid #f39237; 
+	border:1px solid #f39237;
 	width:90px;
 	font-family: 'Hobo Std';
 	color:#f39237;
@@ -129,7 +129,7 @@ a.lien:hover{
 				0px 2px 2px 0px rgba(255,255,255,0.2);
 				padding: 10px;border-radius: 4px;
 				color:#f39237;background-color: #555;
-				-webkit-transition-duration: 350ms ;	
+				-webkit-transition-duration: 350ms ;
 }
 
 /***************************************************************NAV***/
@@ -138,13 +138,13 @@ a.lien:hover{
 	display: flex;
     width:280px;
 	background-color: rgba(0, 0, 0, 0.50);
-	margin-left:4%;		
+	margin-left:4%;
 }
 #colonne_gauche nav {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 #colonne_gauche nav ul li{
-	list-style-type: none;		
+	list-style-type: none;
 }
 #colonne_gauche nav ul li a {
 	display: block;
@@ -152,40 +152,40 @@ a.lien:hover{
 	text-decoration:none;
 	color:#fff;
 	text-transform:uppercase;
-	font-size:16px;
+	font-size:15px;
 	height:42px;
 	background:url(puce.png) 0px 2px no-repeat;
 }
 
 #colonne_gauche nav li a:hover{
 	color: #f39237;
-	font-size:21px;
+	font-size:19px;
 	-webkit-transition: font-size 300ms;
 }
-	
-	
+
+
 
 /*******************************************************ENCART ACTU***/
 
-article.encart_actu {  
-	float:right;  
-	border:1px solid #f39237; 
+article.encart_actu {
+	float:right;
+	border:1px solid #f39237;
 	margin:20px;
-	
+
 }
-.titre_actu { 
+.titre_actu {
 	display:block;
- 	color:#555; 
- 	font-size:22px; 
- 	text-align: center; 
- 	line-height:35px; 
- 	background-color: #f39237; 
- 	text-transform:uppercase; 
+ 	color:#555;
+ 	font-size:22px;
+ 	text-align: center;
+ 	line-height:35px;
+ 	background-color: #f39237;
+ 	text-transform:uppercase;
 }
 .encart_actu p span {
-	font-size:17px; 
-	color:#f39237; 
-	text-transform:uppercase; 	
+	font-size:17px;
+	color:#f39237;
+	text-transform:uppercase;
 }
 .encart_actu p {font-size:19px;padding:4px;font-family:serif;line-height:30px; }
 a img {float: left;margin: 3px;}
@@ -208,10 +208,10 @@ footer section{
 	color: #2e2e2e;
 	padding:17px;
 	overflow: visible;
-}	
+}
 #adresse-footer {
 	position: relative;
-	
+
 	font-size:15px;
 	text-transform:uppercase;
 }
