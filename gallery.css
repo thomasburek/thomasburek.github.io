@@ -6,10 +6,14 @@ body {
      color:#fff;
      background-color:#000;
      font-family: Arial, sans-serif;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
 }
 #bloc_page {
      width: 900px;
     margin: auto;
+    flex: 1;
 }
 
 /********************************************************** HEADER ***/
@@ -84,7 +88,7 @@ ul li img{position:relative;
 }
 
 /********************************************************** FOOTER ***/
-footer{position:absolute;
+footer{
      width: 100%;
      display: flex;
      background:#fff;

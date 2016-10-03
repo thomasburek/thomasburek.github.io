@@ -31,11 +31,15 @@ body {
 	color:#fff;
 	background-color:#000;
 	font-family:Georgia,Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 #bloc_page {
 	width: 900px;
     margin: auto;
+    flex: 1;
 }
 #background {
 	width:100%;
