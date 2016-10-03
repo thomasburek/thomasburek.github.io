@@ -84,6 +84,7 @@ h3{
 }
 .texte{
 	margin:-10px 20px 20px 0;
+	width:850px;
 }
 .texte p {
 	margin-top: 10px;
@@ -94,7 +95,7 @@ h3{
 .texte p a { color:#f39237}
 h2 {
 	border:1px solid #f39237;
-	width:90px;
+	width:200px;
 	font-family: 'Hobo Std';
 	color:#f39237;
 	padding:2px;
@@ -117,7 +118,7 @@ a.lien:hover{
 	font-size:16px;
 	text-align:center;
 	color:#555;
-	margin:-80px 30px 0 0;
+	margin:-80px 5px 0 0;
 	line-height:1.4em;
 }
 
@@ -131,6 +132,12 @@ a.lien:hover{
 				-webkit-transition-duration: 350ms ;
 }
 
+.imgRight {
+    float: right; 
+    border-radius:20px;
+    margin-top:140px ;
+
+}
 /***************************************************************NAV***/
 
 #colonne_gauche {
@@ -161,36 +168,6 @@ a.lien:hover{
 	font-size:19px;
 	-webkit-transition: font-size 300ms;
 }
-
-
-
-/*******************************************************ENCART ACTU***/
-
-article.encart_actu {
-	float:right;
-	border:1px solid #f39237;
-	margin:20px;
-
-}
-.titre_actu {
-	display:block;
- 	color:#555;
- 	font-size:22px;
- 	text-align: center;
- 	line-height:35px;
- 	background-color: #f39237;
- 	text-transform:uppercase;
-}
-.encart_actu p span {
-	font-size:17px;
-	color:#f39237;
-	text-transform:uppercase;
-}
-.encart_actu p {font-size:19px;padding:4px;font-family:serif;line-height:30px; }
-a img {float: left;margin: 3px;}
-a img:hover {border:1px solid #f39237;margin: 2px;}
-.encart_actu p a {color:#f39237;font-size:16px;text-decoration:none;}
-p a em:hover{text-decoration:underline;}
 
 /********************************************************** FOOTER ***/
 footer{
