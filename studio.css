@@ -173,7 +173,7 @@ a.lien:hover{
 article.encart_actu {
 	float:right;
 	border:1px solid #f39237;
-	margin:20px;
+	margin:100px 0 10px 30px;
 
 }
 .titre_actu {
